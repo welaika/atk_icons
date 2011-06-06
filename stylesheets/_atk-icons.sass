@@ -1,0 +1,19 @@
+@import atk-icons/sprites
+
+@mixin atk-icon($icon, $offset-y: 0px)
+  :background-image image-url("atk_icons.png")
+  :display block
+  :height 16px
+  :width 14px
+  +atk-icon-sprite($icon, $offset-y)
+  
+@mixin atk-icon-after($icon, $offset-y: 0px)
+  position: relative
+  padding-left: 15px
+  
+  &:before
+    +atk-icon($icon, $offset-y)
+    content: ""
+    position: absolute
+    left: 0px
+    top: 0px
