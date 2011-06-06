@@ -28,6 +28,20 @@ Or create a new project:
     #import the extension into your scss/sass file
     @import "atk_icons"
 
+Usage Example
+=============
+
+    # for a list of all the icons available, see http://www.agiletech.ie/blog/128x16x16
+
+    span.delete
+      / this will add an :after pseudo-selector with the selected icon
+      @import atk-icon-after("basic-ex")
+
+    span.delete span.icon
+      / alternatively, you can add a classic sub-element, and set the icon to it
+      @import atk-icon("basic-ex")
+
+
 Contributing to atk_icons
 =========================
 
