@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Stefano Verna}]
-  s.date = %q{2011-06-06}
+  s.date = %q{2011-06-07}
   s.description = %q{A way to use the awesome Agile Toolkit Icon Set within your Compass project.}
   s.email = %q{stefano.verna@welaika.com}
   s.extra_rdoc_files = [
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "atk_icons.gemspec",
     "lib/atk_icons.rb",
     "stylesheets/_atk-icons.sass",
     "stylesheets/atk-icons/_sprites.sass",
