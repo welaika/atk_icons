@@ -10,16 +10,19 @@ From the command line:
 
     sudo gem install atk_icons
 
-Installing into an existing project:
+Installing into an existing Rails project:
 
-    # edit the project configuration file and add:
+    # add atk_icons to your Gemfile
+    gem 'atk_icons'
+
+    # require atk_icons from your Compass configuration file (compass.rb)
     require 'atk_icons'
 
-    #from the command line
-    compass install atk_icons
+    # import the extension into your scss/sass file
+    @import atk_icons
 
-    #import the extension into your scss/sass file
-    @import "atk_icons"
+    # copy atk_icons.png to your public/images directory
+    cd public/images && curl http://bit.ly/iHd2XF
 
 Or create a new project:
 

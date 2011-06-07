@@ -8,3 +8,5 @@ A way to use the awesome Agile Toolkit Icon Set within your project.
 welcome_message %Q{
 Refer to the stylesheet file for usage examples
 }
+
+image 'atk_icons.png'
