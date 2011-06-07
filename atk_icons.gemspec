@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{atk_icons}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Stefano Verna}]
   s.date = %q{2011-06-07}
-  s.description = %q{A way to use the awesome Agile Toolkit Icon Set within your Compass project.}
+  s.description = %q{atk_icons is a Compass extension that wraps the awesome Agile Toolkit iconset and exposes a couple of Sass mixins to use them within your project. }
   s.email = %q{stefano.verna@welaika.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.5}
-  s.summary = %q{A way to use the awesome Agile Toolkit Icon Set within your Compass project.}
+  s.summary = %q{The quickest way to use the awesome Agile Toolkit Icon Set within your Compass project.}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
