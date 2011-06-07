@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "lib/atk_icons.rb",
     "stylesheets/_atk-icons.sass",
     "stylesheets/atk-icons/_sprites.sass",
+    "templates/project/atk_icons.png",
     "templates/project/manifest.rb",
     "templates/project/screen.sass"
   ]
