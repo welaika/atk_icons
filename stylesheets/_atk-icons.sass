@@ -2,12 +2,12 @@
 
 @mixin atk-icon($icon, $offset-y: 0px)
   :background-image image-url("atk_icons.png")
-  :display block
+  :display inline-block
   :height 16px
   :width 14px
   +atk-icon-sprite($icon, $offset-y)
   
-@mixin atk-icon-after($icon, $offset-y: 0px)
+@mixin atk-icon-pseudo($icon, $offset-y: 0px)
   position: relative
   padding-left: 15px
   

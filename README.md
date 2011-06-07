@@ -36,14 +36,40 @@ Usage Example
 
     # for a list of all the icons available, see http://www.agiletech.ie/blog/128x16x16
 
-    span.delete
-      / this will add an :after pseudo-selector with the selected icon
-      @import atk-icon-after("basic-ex")
+    .button.delete
+      /* this will add an :after pseudo-selector with the specified icon
+      @include atk-icon-pseudo("basic-ex")
 
-    span.delete span.icon
-      / alternatively, you can add a classic sub-element, and set the icon to it
-      @import atk-icon("basic-ex")
+    .button.add span.icon
+      /* you can also set the icon to a sub-element
+      @include atk-icon("basic-plus")
 
+The previous SASS will result in the following CSS:
+
+    .button.delete {
+      position: relative;
+      padding-left: 15px;
+    }
+
+    .button.delete:before {
+      background-image: url('/images/atk_icons.png');
+      display: inline-block;
+      height: 16px;
+      width: 14px;
+      background-position: -2px -64px;
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+
+    .button.add span.icon {
+      background-image: url('/images/atk_icons.png');
+      display: inline-block;
+      height: 16px;
+      width: 14px;
+      background-position: -2px 0px;
+    }
 
 Contributing to atk_icons
 =========================
