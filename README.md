@@ -19,7 +19,7 @@ Installing into an existing Rails project:
     require 'atk_icons'
 
     # import the extension into your scss/sass file
-    @import atk_icons
+    @import "atk-icons";
 
     # copy atk_icons.png to your public/images directory
     cd public/images && curl http://bit.ly/iHd2XF
